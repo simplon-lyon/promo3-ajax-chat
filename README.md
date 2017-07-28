@@ -26,4 +26,5 @@ Belove are the steps to follow to create an awesome chat:
     - make sure that when the user submit a new `message` an object is added to `messages`
     - create a function `displayMessages` wich update the `div` with the content of `messages`
     - call `displayMessages` each time you add an element to the array
+5. _More is comming!_
 

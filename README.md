@@ -26,5 +26,13 @@ Belove are the steps to follow to create an awesome chat:
     - make sure that when the user submit a new `message` an object is added to `messages`
     - create a function `displayMessages` wich update the `div` with the content of `messages`
     - call `displayMessages` each time you add an element to the array
-5. _More is comming!_
+5. now that we are MVC proof, we will connect `new-message.php` to the database:
+    - create a file `ajax-chat.sql` in which you __MUST__ save all your SQL request
+    - create a new database call `ajax-chat`
+    - create a new database user `ajax-chat-user` wich can only access to the `ajax-chat` database
+    - create a `message` table in the database, the message must at least have: a timestamp and a text.
+    - connect `new-message.php` to the `ajax-chat` database
+    - insert the message in the database
+
+6. _More is comming!_
 

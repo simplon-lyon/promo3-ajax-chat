@@ -18,9 +18,9 @@ Belove are the steps to follow to create an awesome chat:
     - read user message from the `input`
     - send the message using AJAX to `new-message.php`
 3. create a page `new-message.php` which:
-    - read an incoming message from `$_POST` or `$_GET`
-    - create a `Message` object
-    - return a JSON array with two `Message` (just duplicate the message for now)
+    - read an incoming message from `$_POST`
+    - create a `Message` object with at least two properties: `content` and `time`
+    - echo the message content
 4. since we looooove MVC, let's edit `index.html`:
     - add a new Javascript array to store `messages`
     - make sure that when the user submit a new `message` an object is added to `messages`
@@ -33,6 +33,5 @@ Belove are the steps to follow to create an awesome chat:
     - create a `message` table in the database, the message must at least have: a timestamp and a text.
     - connect `new-message.php` to the `ajax-chat` database
     - insert the message in the database
-
 6. _More is comming!_
 

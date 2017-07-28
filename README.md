@@ -3,7 +3,7 @@
 The goal of this project is to create an online chat service using
 AJAX, Bootstrap, PHP and MySQL.
 
-## How To
+## How To
 
 Belove are the steps to follow to create an awesome chat:
 
@@ -21,5 +21,9 @@ Belove are the steps to follow to create an awesome chat:
     - read an incoming message from `$_POST` or `$_GET`
     - create a `Message` object
     - return a JSON array with two `Message` (just duplicate the message for now)
-4. _More is comming!_
+4. since we looooove MVC, let's edit `index.html`:
+    - add a new Javascript array to store `messages`
+    - make sure that when the user submit a new `message` an object is added to `messages`
+    - create a function `displayMessages` wich update the `div` with the content of `messages`
+    - call `displayMessages` each time you add an element to the array
 

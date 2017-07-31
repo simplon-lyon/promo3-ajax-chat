@@ -29,7 +29,7 @@ Belove are the steps to follow to create an awesome chat:
 5. now that we are MVC proof, we will connect `new-message.php` to the database:
     - create a file `ajax-chat.sql` in which you __MUST__ save all your SQL request
     - create a new database call `ajax-chat`
-    - create a new database user `ajax-chat-user` wich can only access to the `ajax-chat` database
+    - create a new database's user `ajax-chat-user` wich can only access the `ajax-chat` database
     - create a `message` table in the database, every message must have:
         - an ID
         - a timestamp

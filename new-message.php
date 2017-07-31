@@ -5,4 +5,9 @@ if (empty($_POST['message'])) {
     echo 'expect a message parameter';
     exit(1);
 }
-echo $_POST['message'];
+require_once("model/Message.php");
+$msg = new Message($_POST['message']);
+
+// DEBUG: remove when connected to DB.
+header('Content-Type: text/plain');
+var_dump($msg);

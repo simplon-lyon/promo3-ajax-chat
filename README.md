@@ -43,7 +43,7 @@ Belove are the steps to follow to create an awesome chat:
 7. let's keep `index.html` up-to-date:
     - find how to call a function at a regular interval in JS
     - create a function which is call every 500ms
-    - update the function to send an HTTPRequest to `read-messages.php`:
+    - update the function to send an HTTP request to `read-messages.php`:
         - get the response from `read-messages.php`
         - transform the response into a JS object
         - update the `messages` array with the server's response

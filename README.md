@@ -48,3 +48,6 @@ Belove are the steps to follow to create an awesome chat:
         - transform the response into a JS object
         - update the `messages` array with the server's response
         - call `display`
+8. make sure that it work using different tab and different computer
+9. give it a nice style using bootstrap and cat pics!
+10. publish on http://simplonlyon.fr
